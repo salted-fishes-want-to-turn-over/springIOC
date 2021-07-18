@@ -2,7 +2,7 @@ package com.ybj.myspring;
 
 public class Test {
     public static void main(String[] args) {
-        MyAnnotationConfigApplicationContext applicationContext = new MyAnnotationConfigApplicationContext("com.southwind.myspring.entity");
+        MyAnnotationConfigApplicationContext applicationContext = new MyAnnotationConfigApplicationContext("com.ybj.myspring.entity");
         System.out.println(applicationContext.getBeanDefinitionCount());
         String[] beanDefinitionNames = applicationContext.getBeanDefinitionNames();
         for (String beanDefinitionName : beanDefinitionNames) {
